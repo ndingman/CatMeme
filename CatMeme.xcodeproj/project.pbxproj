@@ -13,14 +13,17 @@
 		4396489518C4E13200AB7069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4396489318C4E13200AB7069 /* InfoPlist.strings */; };
 		4396489718C4E13200AB7069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4396489618C4E13200AB7069 /* main.m */; };
 		4396489B18C4E13200AB7069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4396489A18C4E13200AB7069 /* AppDelegate.m */; };
-		4396489E18C4E13200AB7069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4396489C18C4E13200AB7069 /* Main.storyboard */; };
-		439648A118C4E13200AB7069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439648A018C4E13200AB7069 /* ViewController.m */; };
 		439648A318C4E13200AB7069 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439648A218C4E13200AB7069 /* Images.xcassets */; };
 		439648AA18C4E13200AB7069 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439648A918C4E13200AB7069 /* XCTest.framework */; };
 		439648AB18C4E13200AB7069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4396488A18C4E13200AB7069 /* Foundation.framework */; };
 		439648AC18C4E13200AB7069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4396488E18C4E13200AB7069 /* UIKit.framework */; };
 		439648B418C4E13200AB7069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 439648B218C4E13200AB7069 /* InfoPlist.strings */; };
 		439648B618C4E13200AB7069 /* CatMemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439648B518C4E13200AB7069 /* CatMemeTests.m */; };
+		439648C018C4E5D800AB7069 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439648BF18C4E5D800AB7069 /* MainStoryboard.storyboard */; };
+		439648C218C4E5E200AB7069 /* Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 439648C118C4E5E200AB7069 /* Cat.png */; };
+		439648C518C4E5FF00AB7069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439648C418C4E5FF00AB7069 /* ViewController.m */; };
+		439648C718C4E6BF00AB7069 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439648C618C4E6BF00AB7069 /* MobileCoreServices.framework */; };
+		439648C918C4E6C700AB7069 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439648C818C4E6C700AB7069 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,18 @@
 		4396489818C4E13200AB7069 /* CatMeme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatMeme-Prefix.pch"; sourceTree = "<group>"; };
 		4396489918C4E13200AB7069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4396489A18C4E13200AB7069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4396489D18C4E13200AB7069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4396489F18C4E13200AB7069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		439648A018C4E13200AB7069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		439648A218C4E13200AB7069 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		439648A818C4E13200AB7069 /* CatMemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatMemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		439648A918C4E13200AB7069 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		439648B118C4E13200AB7069 /* CatMemeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatMemeTests-Info.plist"; sourceTree = "<group>"; };
 		439648B318C4E13200AB7069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		439648B518C4E13200AB7069 /* CatMemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatMemeTests.m; sourceTree = "<group>"; };
+		439648BF18C4E5D800AB7069 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		439648C118C4E5E200AB7069 /* Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat.png; sourceTree = "<group>"; };
+		439648C318C4E5FF00AB7069 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		439648C418C4E5FF00AB7069 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		439648C618C4E6BF00AB7069 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		439648C818C4E6C700AB7069 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439648C918C4E6C700AB7069 /* MessageUI.framework in Frameworks */,
+				439648C718C4E6BF00AB7069 /* MobileCoreServices.framework in Frameworks */,
 				4396488D18C4E13200AB7069 /* CoreGraphics.framework in Frameworks */,
 				4396488F18C4E13200AB7069 /* UIKit.framework in Frameworks */,
 				4396488B18C4E13200AB7069 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,8 @@
 		4396488918C4E13200AB7069 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				439648C818C4E6C700AB7069 /* MessageUI.framework */,
+				439648C618C4E6BF00AB7069 /* MobileCoreServices.framework */,
 				4396488A18C4E13200AB7069 /* Foundation.framework */,
 				4396488C18C4E13200AB7069 /* CoreGraphics.framework */,
 				4396488E18C4E13200AB7069 /* UIKit.framework */,
@@ -114,10 +124,10 @@
 			children = (
 				4396489918C4E13200AB7069 /* AppDelegate.h */,
 				4396489A18C4E13200AB7069 /* AppDelegate.m */,
-				4396489C18C4E13200AB7069 /* Main.storyboard */,
-				4396489F18C4E13200AB7069 /* ViewController.h */,
-				439648A018C4E13200AB7069 /* ViewController.m */,
 				439648A218C4E13200AB7069 /* Images.xcassets */,
+				439648BF18C4E5D800AB7069 /* MainStoryboard.storyboard */,
+				439648C318C4E5FF00AB7069 /* ViewController.h */,
+				439648C418C4E5FF00AB7069 /* ViewController.m */,
 				4396489118C4E13200AB7069 /* Supporting Files */,
 			);
 			path = CatMeme;
@@ -126,6 +136,7 @@
 		4396489118C4E13200AB7069 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				439648C118C4E5E200AB7069 /* Cat.png */,
 				4396489218C4E13200AB7069 /* CatMeme-Info.plist */,
 				4396489318C4E13200AB7069 /* InfoPlist.strings */,
 				4396489618C4E13200AB7069 /* main.m */,
@@ -228,9 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439648C018C4E5D800AB7069 /* MainStoryboard.storyboard in Resources */,
 				439648A318C4E13200AB7069 /* Images.xcassets in Resources */,
+				439648C218C4E5E200AB7069 /* Cat.png in Resources */,
 				4396489518C4E13200AB7069 /* InfoPlist.strings in Resources */,
-				4396489E18C4E13200AB7069 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439648A118C4E13200AB7069 /* ViewController.m in Sources */,
+				439648C518C4E5FF00AB7069 /* ViewController.m in Sources */,
 				4396489B18C4E13200AB7069 /* AppDelegate.m in Sources */,
 				4396489718C4E13200AB7069 /* main.m in Sources */,
 			);
@@ -280,14 +292,6 @@
 				4396489418C4E13200AB7069 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4396489C18C4E13200AB7069 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4396489D18C4E13200AB7069 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		439648B218C4E13200AB7069 /* InfoPlist.strings */ = {

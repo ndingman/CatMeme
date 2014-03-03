@@ -2,8 +2,8 @@
 //  ViewController.h
 //  CatMeme
 //
-//  Created by NEIL DINGMAN on 3/3/14.
-//  Copyright (c) 2014 Neil Dingman. All rights reserved.
+//  Created by NEIL DINGMAN on 2/1/13.
+//  Copyright (c) 2013 NEIL DINGMAN. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
